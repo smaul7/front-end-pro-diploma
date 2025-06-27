@@ -1,0 +1,18 @@
+:root{
+  --soft-brown-1: #A1866F;
+  --soft-brown-2: #C4B29B;
+
+  --light-gray-1: #E6E6E6;
+  --light-gray-2: #B0B0B0;
+  --dark-gray: #4A4A4A;
+
+  --off-white: #F7F5F2;
+
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 👈 Це ключ, щоб запобігти прокрутці */
+}

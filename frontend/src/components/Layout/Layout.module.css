@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "body body"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 5px;
+  padding: 5px;
+  height: 100vh;
+  background-color: var(--off-white);
+  color: var(--dark-gray);
+
+  max-width: 1224px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.mainContainer{
+    display: flex;
+    grid-area: body;
+    background-color: var(--light-gray-1);
+    height: 100%;
+}
+
+.outletWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

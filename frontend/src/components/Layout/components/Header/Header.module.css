@@ -1,0 +1,17 @@
+.header{
+  grid-area: header;
+  text-align: center;
+  background-color: var(--soft-brown-1);
+  color: var(--dark-gray);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
